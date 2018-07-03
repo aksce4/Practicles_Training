@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AudioDemo1</string>
+    <string name="btn_play">Play</string>
+    <string name="text_info">Select Profile</string>
+    <string name="radio_silent">Silent</string>
+    <string name="radio_vibrate">Vibrate</string>
+    <string name="radio_normal">Normal</string>
+</resources>
