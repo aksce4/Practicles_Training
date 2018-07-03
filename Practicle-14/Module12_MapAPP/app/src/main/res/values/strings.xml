@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Module12_MapAPP</string>
+    <string name="google_map_API_key">AIzaSyA-G-SiXsexU8092hmxV2IUy6QHFRyR13Y</string>
+    <string name="data_input">Enter Address, City or Zip Code</string>
+    <string name="todo">TODO</string>
+    <string name="btn_mapchange">Change</string>
+    <string name="button">Open Map</string>
+</resources>
