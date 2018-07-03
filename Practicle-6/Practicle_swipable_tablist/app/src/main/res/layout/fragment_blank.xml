@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/CV1"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/imageview1"
+                android:background="@drawable/circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_p1"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout2"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Levi"
+                    android:textColor="@android:color/holo_blue_bright"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lorem ipsum color"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:src="@drawable/ic_chat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageview2"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="50dp"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@id/CV1"
+        android:id="@+id/CV2"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout3"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:padding="20dp">
+
+
+            <ImageView
+                android:id="@+id/imageview3"
+                android:layout_width="wrap_content"
+                android:background="@drawable/circle"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_p1"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout4"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Astrid"
+                    android:textColor="@android:color/holo_blue_bright"/>
+                />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lorem ipsum color"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:src="@drawable/ic_chat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageview4"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="50dp"
+                />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@id/CV2"
+        android:id="@+id/CV3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout5"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/imageview5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_p1"
+                android:background="@drawable/circle"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout6"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sandro"
+                    android:textColor="@android:color/holo_blue_bright"/>
+                />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lorem ipsum color"/>
+                />
+
+            </LinearLayout>
+
+            <ImageView
+                android:src="@drawable/ic_chat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageview6"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="50dp"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@id/CV3"
+        android:id="@+id/CV4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ll2"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:padding="20dp"
+            >
+
+            <ImageView
+                android:id="@+id/imagev1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circle"
+                android:src="@drawable/ic_p1"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ll1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="William"
+                    android:textColor="@android:color/holo_blue_bright"/>
+                />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lorem ipsum color"/>
+                />
+
+            </LinearLayout>
+
+            <ImageView
+                android:src="@drawable/ic_chat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imagev2"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="50dp" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
