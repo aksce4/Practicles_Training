@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Project2</string>
+    <string name="Company_Logo">Logo</string>
+    <string name="User_name">Your Name</string>
+    <string name="User_email">Email id</string>
+    <string name="User_password">Password</string>
+    <string name="User_password1">Confirm password</string>
+    <string name="provider">Provider</string>
+    <string name="patient">Patient</string>
+    <string name="login">Sign Up</string>
+    <string name="login_with_qr">Login with QR</string>
+    <string name="accountCreate">Already have an account? Login</string>
+</resources>
