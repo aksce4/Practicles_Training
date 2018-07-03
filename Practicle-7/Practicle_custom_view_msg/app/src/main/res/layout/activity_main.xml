@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:text="Submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <com.example.akshayparmar.practicle2customfont.customView
+        android:id="@+id/customView1"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        android:text="customView1"
+        android:onClick="onClick"
+        app:msg="customeView1"
+        android:fontFamily="sans-serif-smallcaps"/>
+
+    <com.example.akshayparmar.practicle2customfont.customView
+        android:id="@+id/customView2"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintEnd_toStartOf="@+id/customView3"
+        app:layout_constraintHorizontal_bias="0.58"
+        app:layout_constraintStart_toEndOf="@+id/customView1"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        android:text="customView2"
+        android:onClick="onClick"
+        app:msg="customeView2"/>
+
+    <com.example.akshayparmar.practicle2customfont.customView
+        android:id="@+id/customView4"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/customView1"
+        android:text="customView4"
+        android:onClick="onClick"
+        app:msg="customeView4"/>
+
+    <com.example.akshayparmar.practicle2customfont.customView
+        android:id="@+id/customView5"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toStartOf="@+id/customView6"
+        app:layout_constraintHorizontal_bias="0.58"
+        app:layout_constraintStart_toEndOf="@+id/customView4"
+        app:layout_constraintTop_toBottomOf="@+id/customView2"
+        android:text="customView5"
+        android:onClick="onClick"
+        app:msg="customeView5"/>
+
+    <com.example.akshayparmar.practicle2customfont.customView
+        android:id="@+id/customView6"
+        android:layout_width="105dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/customView3"
+        android:text="customView6"
+        android:onClick="onClick"
+        app:msg="customeView6"/>
+
+    <com.example.akshayparmar.practicle2customfont.customView
+        android:id="@+id/customView3"
+        android:layout_width="105dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        android:text="customView3"
+        android:onClick="onClick"
+        app:msg="customeView3"/>
+
+</android.support.constraint.ConstraintLayout>
