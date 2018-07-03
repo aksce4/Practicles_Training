@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BrodcastAppDemo</string>
+    <string name="text_msg">Brodcast Receiver Started</string>
+</resources>
