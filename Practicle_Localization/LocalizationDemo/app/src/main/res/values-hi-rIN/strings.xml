@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">स्थानीयकरण-डेमो</string>
+    <string name="msg_detail" translatable="false">स्थानीयकरण में आपका स्वागत है</string>
+    <string name="edit_name" translatable="false">अपना नाम दर्ज करें</string>
+    <string name="button" translatable="false">जमा करें</string>
+</resources>
